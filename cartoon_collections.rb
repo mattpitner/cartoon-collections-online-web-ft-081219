@@ -28,9 +28,6 @@ def find_the_cheese(cheese_types)
   cheese_types.detect do |cheese|
         if cheese == "cheddar" 
           return cheese 
-      
     end 
-
   end
- 
 end
