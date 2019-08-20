@@ -26,7 +26,7 @@ end
   #cheese_types = ["cheddar", "gouda", "camembert"]
 def find_the_cheese(cheese_types)
   cheese_types.detect do |cheese|
-        if cheese = "cheddar"
+        if cheese = cheese 
           return cheese 
         else return nil 
     end 
